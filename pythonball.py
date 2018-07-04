@@ -19,7 +19,7 @@ p1_score = 100
 white = (255,255,255)
 red = (255,0,0)
 
-def text_objects(text, font):
+'''def text_objects(text, font):
     textSurface = font.render(text, True, red)
     return textSurface, textSurface.get_rect()
 
@@ -29,8 +29,8 @@ def message_display(text):
     TextRect.center = ((display_width/2),(display_height/5))
     gameDisplay.blit(TextSurf, TextRect) #pygame
 
-message_display("~~PYTHONBALL~~")
-#print("~~PYTHONBALL~~")
+message_display("~~PYTHONBALL~~")'''
+print("~~PYTHONBALL~~")
 print("Good evening and welcome to Pythonball.")
 
 print("PLAYER ONE")
